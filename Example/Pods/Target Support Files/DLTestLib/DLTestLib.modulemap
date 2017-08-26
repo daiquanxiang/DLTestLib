@@ -1,0 +1,6 @@
+framework module DLTestLib {
+  umbrella header "DLTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
