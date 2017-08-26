@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DLTestLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of DLTestLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,10 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DLTestLib/Classes/**/*.{h,m}'
-  
-  # s.resource_bundles = {
-  #   'DLTestLib' => ['DLTestLib/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
