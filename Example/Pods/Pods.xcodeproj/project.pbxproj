@@ -13,8 +13,6 @@
 		739CD32DCA3D436A47533CCE6B0468DE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9E05C78ACE5DB0FAD9800BBB4E3F0 /* ReplaceMe.m */; };
 		745F9D139784997054F994AA74C89DC7 /* DLTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90675B868D9862E797FF53A2DC6EDECD /* DLTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A11B9B0E0BEB424BAE564FB44FE7AD63 /* Pods-DLTestLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2C4A885A973DE1BC8869CA05772FE5 /* Pods-DLTestLib_Tests-dummy.m */; };
-		B312EC321F517FA30076B3F9 /* DLTObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B312EC301F517FA30076B3F9 /* DLTObject.h */; };
-		B312EC331F517FA30076B3F9 /* DLTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B312EC311F517FA30076B3F9 /* DLTObject.m */; };
 		E38D62DDFD7275F936DB9A86F294494A /* Pods-DLTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F75B7643E5694B4C70E83A263A7344B /* Pods-DLTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -47,8 +45,6 @@
 		8F0982E791A75E0967CD81CEA826BECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90675B868D9862E797FF53A2DC6EDECD /* DLTestLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLTestLib-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B312EC301F517FA30076B3F9 /* DLTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTObject.h; path = DLTestLib/Classes/DLTObject.h; sourceTree = "<group>"; };
-		B312EC311F517FA30076B3F9 /* DLTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTObject.m; path = DLTestLib/Classes/DLTObject.m; sourceTree = "<group>"; };
 		C5777D5A53A2D4C688A2D990F047412C /* Pods-DLTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DD923941EB1BF4996A626A506EF416AD /* DLTestLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLTestLib.xcconfig; sourceTree = "<group>"; };
 		E8CD1190F8EEDD416E43C501EC89FD99 /* Pods-DLTestLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLTestLib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -126,8 +122,6 @@
 		764A15AF0BC6A38D03A6994E06C65E19 /* DLTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				B312EC301F517FA30076B3F9 /* DLTObject.h */,
-				B312EC311F517FA30076B3F9 /* DLTObject.m */,
 				18F9E05C78ACE5DB0FAD9800BBB4E3F0 /* ReplaceMe.m */,
 				7351BE4A9041E67546981B286E17F116 /* Support Files */,
 			);
@@ -177,7 +171,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B312EC321F517FA30076B3F9 /* DLTObject.h in Headers */,
 				745F9D139784997054F994AA74C89DC7 /* DLTestLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +262,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F48B0A245244F707EDCC3B22A62ACAA /* DLTestLib-dummy.m in Sources */,
-				B312EC331F517FA30076B3F9 /* DLTObject.m in Sources */,
 				739CD32DCA3D436A47533CCE6B0468DE /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
