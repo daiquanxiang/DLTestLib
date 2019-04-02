@@ -11,7 +11,7 @@ git commit -m "edit"
 git push -u origin master
 
 #打tag
-git tag -a 0.1.5 -m "tag release 0.1.5"
+git tag -a 0.1.6 -m "tag release 0.1.6"
 
 #上传
 git push --tags
